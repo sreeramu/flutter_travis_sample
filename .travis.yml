@@ -34,6 +34,7 @@ matrix:
         - git clone https://github.com/flutter/flutter.git -b dev --depth 1
       script:
         - ./flutter/bin/flutter -v build apk
+        
 
 cache:
   directories:
